@@ -1,0 +1,279 @@
+@media only screen and (max-width: 1200px){
+    
+    .sobre .bio { right: 110px; }
+    .sobre .redes-sociais { right: 100px; }
+    
+    /* Sobre */
+    .main-nav { padding-right: 50px; }
+    
+    /* Projetos */
+}
+
+@media only screen and (max-width: 1023px){
+    
+    body { font-size: 18px; }
+    
+    .projetos {
+        margin-top: 10px;
+    }
+    
+    .projetos ul {
+        width: 100%;
+    }
+    
+    .projetos-showcase li {
+        width: 30%;
+        left: 3.7%;
+    }
+    
+    .arrow-home,
+    .arrow-projetos { font-size: 120%; }
+    
+    .arrow-home {
+    }
+    
+    .arrow-projetos { padding-top: 20px; }
+    
+    /* Sobre */
+    
+    .main-nav {font-size: 120%; padding-right: 50px;}
+    
+    nav h3{ font-size: 150%; }
+    
+    .sobre .bio { 
+        right: 70px;
+        font-size: 110%;
+    }
+    .sobre .redes-sociais { right: 80px; }
+    .sobre .nombre { width: 30%; }
+    
+    /* Projetos */
+    
+    .projeto-tags, .projeto-descricao { font-size: 110%; }
+    
+    .projeto-descricao { margin-right: 5%; }
+    
+    .projeto-imagem { margin-top: 30px; }
+    
+    .projeto-video {
+        width: 90%;
+        height: 85vh;
+        margin: 10px 5% 20px 5%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    
+    body { font-size: 17px; }
+    
+    .projetos {
+        margin-top: 0;
+    }
+    
+    .projetos-showcase li {
+        width: 31%;
+        margin-top: 30px;
+        left: 2%;
+    }
+    
+    .arrow-home,
+    .arrow-projetos { font-size: 130%; }
+    
+    .arrow-projetos { 
+        width: 10%;
+        padding-top: 30px;
+    }
+    
+    .menu li{ padding-left: 30px; }  
+    
+    /* Sobre */
+    
+    nav h3{ 
+        font-size: 160%;
+        padding-left: 20px;
+    }
+    
+    .main-nav {
+        font-size: 130%;
+        padding-right: 20px;
+    }
+    
+    .sobre .bio { 
+        right: 50px;
+        font-size: 110%;
+    }
+    .sobre .redes-sociais { right: 50px; }
+    
+    .sobre .nombre { 
+        width: 30%;
+        left: 30px;
+    }
+    
+    .sobre .redes-sociais li {
+        padding: 5px;
+    }
+    
+    /* Projetos */
+    
+    .projeto-titulo { left: 5%;}
+    
+    .projeto-descricao {margin: 0 3% 0 5%;}
+    
+    .projeto-video {
+        height: 60vh;
+    }
+    
+    .projeto-tags {
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    
+    body { font-size: 16px; overflow: scroll; }
+    
+    .home-itens { width: 100%; height: 100vh; text-align: center; position: relative; left: 50%; }
+    
+    .titulo { 
+        position: relative;
+        top: 36%;
+        left: -50%;
+    }
+    
+    .menu { 
+        position: relative;
+        width: 100%;
+        left: -50%;
+        top: 35%;
+        padding: 0;
+        right: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .menu li{ 
+        display: inline-block;
+        font-size: 220%;
+        font-weight: 300;
+        padding: 5px 35px;
+        text-align: center;
+    } 
+    
+    .arrow-projetos i,
+    .arrow-home i{ font-size: 220%; }
+    
+    .arrow-home { 
+        position: absolute;
+        width: 50%;
+        left: -50%;
+        height: auto;
+        top: 72%;
+        text-align: center;
+    }
+    
+    .arrow-home i { 
+        position: relative;
+        left: 50%;
+        width: inherit; height: 50px;
+    }
+    
+    h1 { font-size: 230%; }
+    
+    .projetos-showcase li { 
+        display: block; 
+        float: none; 
+        width: 80%;
+        left: 10%;
+        margin: 0 0 20px 0;
+    }
+    
+    /* Sobre */
+    
+    nav h3{ font-size: 170%; padding-left: 10px;}
+    
+    .main-nav {font-size: 130%;}
+    
+    .sobre {
+        width: 100%;
+        height: 90vh;
+    }
+    
+    .sobre .bio { 
+        position: relative;
+        width: 90%;
+        top: 8%;
+        left: 5%;
+        font-size: 120%;
+        line-height: 100%;
+    }
+    
+    .sobre .redes-sociais { 
+        position: relative; 
+        top: 5%;
+        right: 0;
+        text-align: center;
+        font-size: 130%;
+    }
+    
+    .sobre .redes-sociais i {
+        margin-left: 5%;
+    }
+    
+    .sobre .nombre { 
+        position: relative;
+        top: 10%;
+        left: 0;
+        width: 80%;
+        margin: 0 10%;
+        text-align: center;
+    }
+    
+    .sobre .redes-sociais li {
+        padding: 5px;
+    }
+    
+    /* Projetos */
+    
+    .projeto-dados {
+        text-align: center;
+    }
+    
+    .projeto-titulo {
+        position: relative;
+        margin: 40px 0 0 0;
+        top: 50%;
+        left: 0;
+    }
+    
+    .projeto-tags {
+        position: relative;
+        margin: 25px 0 15px 0;
+        right: 5%;
+    }
+    
+    .projeto-tags li {
+        display: block;
+        font-weight: 400;
+    }
+    
+    .projeto-descricao { 
+        position: relative;
+        margin: 0;
+        width: 90%;
+        left: 5%;
+        font-size: 120%;
+        float: none;
+    }
+    
+    .projeto-descricao p {
+        line-height: 130%;
+    }
+    
+    .projeto-imagem { margin-top: 10px; }
+    
+    .projeto-video {
+        width: 96%;
+        height: 40vh;
+        margin: 0 2%;        
+    }
+}

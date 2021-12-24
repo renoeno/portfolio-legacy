@@ -1,0 +1,194 @@
+/*--------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #e9e9ea;
+    color: #555;
+    font-family: "Alegreya Sans", "Helvetica", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/* Elementos gerais */
+
+h1 {
+    font-size: 220%;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+ul {
+    list-style: none;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Usa comando clear logo após o uso de floats. */
+
+.clearfix {zoom: 1}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* Estilo do site top de linha */
+
+
+.home {
+    background-image: url(img/background2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo {
+    position: absolute;
+    top: 43%;
+    left: 10%;
+    font-style: italic;
+    font-size: 150%;
+}
+
+.menu {
+    position: absolute;
+    top: 40%;
+    right: 23%;
+    padding-left: 30%;
+    text-align: right;
+}
+
+.menu li{
+    display: block;
+    font-size: 170%;
+    padding-left: 40px;
+    font-size: 300%;
+    font-style: italic;
+}
+
+.menu a:link,
+.menu a:visited {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.4s;
+}
+
+.menu a:hover,
+.menu a:active {
+    border-bottom: 2px solid #555;
+}
+
+.arrow-home {
+    position: absolute;
+    left: 50%;
+    width: 10%;
+    height: 7%;
+    text-align: center;
+    top: 88%;
+}
+
+.arrow-home i {
+    position: relative;
+    font-size: 250%;
+    display: block;
+    left: -50%;
+}
+
+.arrow-home .icon-dots {
+    margin-left: -1.5px;
+}
+
+.icon-dots {
+    margin-bottom: -10px;
+}
+
+/* Projetos */
+
+.section-projetos {
+    margin: 0;
+    height: 100vh;
+}
+
+.projetos {
+    width: 100%;
+}
+
+.projetos ul{
+    width: 90%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+    overflow: hidden;
+}
+
+.projetos-showcase li {
+    display: inline-block;
+    position: relative;
+    float: left;
+    left: 6.5%;
+    width: 28%;
+    height: auto;
+    margin: 0 0.5% 6px 0.5%;
+    background-color: #000;
+}
+
+.item-projeto {
+    margin: 0;
+}
+
+.item-projeto img {
+    width: 100%;
+    height: auto;
+    opacity: 1.0;
+    transition: opacity 0.5s;
+}
+
+.item-projeto img:hover {
+    opacity: 0.2;
+}
+
+.hover-text {
+    width: inherit;
+    height: auto;
+}
+
+.hover-text {
+    font-weight: 100;
+    font-size: 120%;
+    display: none;
+    position: absolute;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.arrow-projetos {
+    width: 3%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+
+.arrow-projetos i {
+    font-size: 190%;
+    display: block;
+}

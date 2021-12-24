@@ -1,0 +1,197 @@
+/*--------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #e9e9ea;
+    color: #555;
+    font-family: "Alegreya Sans", "Helvetica", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+p {
+    color: #222;
+    font-size: 110%;
+    line-height: 140%;
+    text-align: justify;
+    text-transform: lowercase;
+}
+
+/* Elementos gerais */
+
+h1, h2 {
+    text-transform: lowercase;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+ul {
+    list-style: none;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Navegação principal */
+
+nav {
+    margin-top: 15px;
+}
+
+.home-link {
+    display: inline-block;
+    position: absolute;
+    float: left;
+    padding-left: 20px;
+}
+
+.menu-sobre a:link,
+.menu-sobre a:visited {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.4s;
+}
+
+.menu-sobre a:hover,
+.menu-sobre a:active {
+    border-bottom: 2px solid #555;
+}
+
+.main-nav {
+    position: relative;
+    float: right;
+    padding-right: 20px;
+}
+
+.main-nav li{
+    display: inline-block;
+    font-size: 120%;
+    padding-left: 20px;
+}
+
+
+nav h3{
+    float: left;
+}
+
+/* Seção do projeto */
+
+.projeto-info {
+    margin-top: 5%;
+}
+
+.projeto-info .projeto-titulo{
+}
+
+.projeto-tags,
+.redes-sociais{
+    float: right;
+    margin-top: 45px;
+}
+
+.projeto-tags li,
+.redes-sociais li{
+    padding-left: 30px;
+    display: inline-block;
+}
+
+.projeto-descricao {
+    margin: 0 10% 0 10%;
+    float: right;
+}
+
+.projeto-imagem {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin: 50px auto 0 auto;
+}
+
+.projeto-imagem img{
+    width: inherit;
+    height: auto;
+}
+
+.projeto-video {
+    position: relative;
+    width: 98%;
+    height: 95vh;
+    margin: 30px 1% 20px 1%;
+}
+
+.projeto-video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.carne {
+    margin-top: -70px;
+}
+
+.prison {
+    margin-top: -145px;
+}
+
+.center-topo {
+    position: absolute;
+    left: 50%;
+    text-align: center;
+}
+
+.topo-link {
+    font-size: 180%;
+    position: relative;
+    left: -50%;
+    margin-bottom: 10px;
+}
+
+/* Sobre */
+
+.sobre {
+    overflow: auto;
+}
+
+.redes-sociais {
+    position: absolute;
+    top: 160px;
+    right: 120px;
+    font-size: 120%;
+}
+
+.nombre, .projeto-titulo {
+    position: absolute;
+    float: left;
+    top: 200px;
+    left: 80px;
+}
+
+.bio {
+    position: absolute;
+    top: 260px;
+    right: 100px;
+}
